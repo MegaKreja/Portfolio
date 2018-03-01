@@ -1,0 +1,35 @@
+#sixthPageFirstHalf {
+	background-color:#D87D0F;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+
+#sixthPageFirstHalf img {
+  width: 6%;
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+}
+
+#sixthPageSecondHalf img {
+  width: 6%;
+  display: block;
+  margin: 0 auto;
+}
+
+#sixthPageSecondHalf {
+	background-color:#A63305;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}

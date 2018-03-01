@@ -1,0 +1,34 @@
+#firstPageFirstHalf {
+	background-color:#324D5C;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+
+#firstPageSecondHalf {
+	background-color:#46B39D;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+
+#name {
+	font-weight: bold;
+	font-size: $xl-size;
+}
+
+#job {
+	font-size: $m-size;
+}
+
+#description {
+	font-size: $m-size;
+}

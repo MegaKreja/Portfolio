@@ -1,0 +1,37 @@
+#imgPageFirstHalf {
+	background-color:#F0CA4D;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+
+#imgPageFirstHalf img {
+  width: 40%;
+  display: block;
+  margin: 0 auto; 
+}
+
+@media (max-width: $desktop-breakpoint) {
+  #imgPageFirstHalf img {
+    width: 80%;
+  }
+}
+
+#imgPageSecondHalf {
+	background-color:#E37B40;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+
+p {
+  font-size: $m-size;
+}

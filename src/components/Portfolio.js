@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
 	render() {
 		return(
 			<div id="flipPage">
-				<FlipPage responsive={true} showSwipeHint>
+				<FlipPage responsive={true} animationDuration={800} flipOnTouch={true} showTouchHint showSwipeHint>
 					<FirstPage />
 					<SecondPage />
 					<ThirdPage />

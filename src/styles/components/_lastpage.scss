@@ -17,10 +17,22 @@
   padding: 0 1% 0 1%;
 }
 
+@media (max-width: $desktop-breakpoint) {
+  #sixthPageFirstHalf img {
+    width: 25%;
+  }
+}
+
 #sixthPageSecondHalf img {
   width: 6%;
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  #sixthPageSecondHalf img {
+    width: 25%;
+  }
 }
 
 #sixthPageSecondHalf {

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../styles/images/pomodoro-clock.jpg";
+import img from "../styles/images/pomodoro-clock.png";
 
 const FifthPage = (props) => {
 	return (

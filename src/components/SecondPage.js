@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../styles/images/recipe-box.jpg";
+import img from "../styles/images/recipe-box.png";
 
 const SecondPage = (props) => {
 	return (

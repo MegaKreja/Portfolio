@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../styles/images/tic-tac-toe.jpg";
+import img from "../styles/images/tic-tac-toe.png";
 
 const FourthPage = (props) => {
 	return (

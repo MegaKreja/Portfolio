@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../styles/images/simon-says.jpg";
+import img from "../styles/images/simon-says.png";
 
 const ThirdPage = (props) => {
 	return (

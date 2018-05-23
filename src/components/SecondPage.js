@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../styles/images/recipe-box.png";
+import img from "../styles/images/game-of-life.png";
 
 const SecondPage = (props) => {
 	return (
@@ -8,7 +8,7 @@ const SecondPage = (props) => {
 				<img src={img} alt=""/>
 			</div>
 			<div className="secondHalf" id="imgPageSecondHalf">
-				<a href="https://codepen.io/MegaKreja/full/zpvGJB/">Recipe Box</a>
+				<a href="https://fcc-game-of-life.herokuapp.com/">Game of Life</a>
 				<p>HTML   CSS   JAVASCRIPT   REACT</p>
 			</div>
 		</div>
